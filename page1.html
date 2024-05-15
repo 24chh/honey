@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+    <style>
+        body {
+            background-color: #f4cccc; /* Subtle shade of pink */
+            opacity: 0.8; /* Adjust transparency */
+            margin: 0; /* Remove default body margin */
+            height: 100vh; /* Set body height to viewport height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #ff7eb9; /* Pink button */
+            color: #ffffff; /* White text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px; /* Adjust button position from the top */
+        }
+
+        button:hover {
+            background-color: #ff5d9e; /* Darker pink on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="pika.png" alt="Your Image" style="width: 100%; max-width: 100px; padding-bottom: 0px;">
+    <button onclick="navigateToPage1()">click here</button>
+</div>
+
+<script>
+    function navigateToPage1() {
+        window.location.href = "page2.html";
+    }
+</script>
+
+</body>
+</html>

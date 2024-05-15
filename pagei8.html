@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>honey in chicago</title>
+  <link rel="icon" type="image/ico" href="favicon.ico">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4cccc; /* Subtle shade of pink */
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Adjust height as needed */
+    }
+
+    .video-container {
+      width: 50%; /* Adjust width as needed */
+      height: auto; /* Adjust height as needed */
+      overflow: hidden; /* Hide overflow */
+    }
+
+    .video-container video {
+      width: 100%;
+      height: auto;
+      object-fit: cover; /* Maintain aspect ratio and fill container */
+    }
+
+    .text-container {
+      color: #0099CC;
+      font-size: 48px;
+      font-style: normal;
+      font-family: cursive;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+      margin-left: 20px; /* Adjust spacing between video and text */
+      padding: 20px; /* Add padding for better readability */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="video-container">
+    <video autoplay loop muted>
+      <source src="v (3).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="text-container">
+    happy birthday dummi!!! 🐧
+  </div>
+</div>
+<script>
+  setTimeout(function() {
+    window.location.href = "hbd.html";
+  }, 15000); // 15 seconds delay
+</script>
+
+</body>
+</html>

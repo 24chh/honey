@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+    <style>
+        body {
+            background-color: #f4cccc; /* Subtle shade of pink */
+            opacity: 0.8; /* Adjust transparency */
+            margin: 0; /* Remove default body margin */
+            height: 100vh; /* Set body height to viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        table {
+            width: 100%;
+            max-width: 300px; /* Adjust table width as needed */
+            border-collapse: collapse;
+            margin-top: -400px;
+            margin-left: 600px;
+        }
+        td {
+            text-align: center;
+            padding: 10px;
+            vertical-align: middle;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #ff7eb9; /* Pink button */
+            color: #ffffff; /* White text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #ff5d9e; /* Darker pink on hover */
+        }
+    </style>
+</head>
+<body>
+
+  <table>
+      <tr>
+          <td>
+              <img src="pika.png" alt="Pikachu Image" style="width: 100%; max-width: 100px;">
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <button onclick="navigateToPage1()">hehheheh</button>
+          </td>
+      </tr>
+  </table>
+
+<script>
+    function navigateToPage1() {
+        // Change the URL to the desired website
+        window.location.href = "page10.html";
+    }
+</script>
+
+</body>
+</html>

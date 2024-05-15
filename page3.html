@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .section {
+            width: 50%;
+            height: 50vh;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.5s;
+        }
+
+        .section:hover {
+            transform: scale(1.1);
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .section:hover .text-overlay {
+            opacity: 1;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="pagei1.html" class="section" style="background: linear-gradient(to right, #ffbf00, #ff7e00);">
+        <div class="text-overlay">
+            <h2>baby honey</h2>
+        </div>
+    </a>
+
+    <a href="pagei2.html" class="section" style="background: linear-gradient(to right, #2193b0, #6dd5ed);">
+        <div class="text-overlay">
+            <h2>meme honey</h2>
+        </div>
+    </a>
+</div>
+
+<div class="container">
+    <a href="pagei3.html" class="section" style="background: linear-gradient(to right, #ff9966, #ff5e62);">
+        <div class="text-overlay">
+            <h2>honey with chandana</h2>
+        </div>
+    </a>
+
+    <a href="#" class="section" onclick="checkPassword()" style="background: linear-gradient(to right, #fb7ba2, #ceaed4);">
+        <div class="text-overlay">
+            <h2>honey's onlyfans</h2>
+        </div>
+    </a>
+</div>
+
+<div class="container">
+    <a href="pagei5.html" class="section" style="background: linear-gradient(to right, #ff7e5f, #feb47b);">
+        <div class="text-overlay">
+            <h2>honey on facebook</h2>
+            <p>*captions directly as taken from facebook*</p>
+        </div>
+    </a>
+
+    <a href="pagei6.html" class="section" style="background: linear-gradient(to right, #c94b4b, #4b134f);">
+        <div class="text-overlay">
+            <h2>being motu/healthy</h2>
+            <p> *only food makes us happy*</p>
+        </div>
+    </a>
+</div>
+
+<div class="container">
+    <a href="pagei7.html" class="section" style="background: linear-gradient(to right, #5c258d, #4389a2);">
+        <div class="text-overlay">
+            <h2>honey in chicago</h2>
+        </div>
+    </a>
+
+    <a href="pagei8.html" class="section" style="background: linear-gradient(to right, #b3b3b3, #7f7f7f);">
+        <div class="text-overlay">
+            <h2>happy birthday honey</h2>
+        </div>
+    </a>
+</div>
+
+<script>
+    function checkPassword() {
+        var password = prompt("Please enter the password:");
+        if (password === "honey<3pawan") {
+            window.location.href = "pagei4.html";
+        } else {
+            alert("Incorrect password! Try again.");
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>being motu/healthy</title>
+  <link rel="icon" type="image/ico" href="favicon.ico">
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #f4cccc; /* Subtle shade of pink */
+    }
+
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px; /* Gap between images */
+    }
+
+    .image-container {
+      flex: 1 0 calc(33.33% - 20px); /* Set image width to fit three images in one row */
+      margin-bottom: 20px;
+      overflow: hidden;
+      border-radius: 20px; /* Rounded corners */
+      background-color: #fff; /* White background */
+      position: relative;
+      aspect-ratio: 1; /* Maintain square aspect ratio */
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensure images cover container */
+      display: block;
+      border-radius: 20px; /* Rounded corners */
+      /* Padding around images */
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px; /* Match rounded corners of image container */
+    }
+
+    .image-container:hover .overlay {
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+
+<div class="image-gallery">
+
+  <div class="image-container">
+        <img src="motu (1).jpeg" alt="Motu Image 1">
+    </div>
+
+      <div class="image-container">
+          <img src="motu (4).jpg" alt="Motu Image 4">
+      </div>
+
+    <div class="image-container">
+        <img src="motu (2).jpeg" alt="Motu Image 2">
+    </div>
+
+    <div class="image-container">
+        <img src="new (4).jpeg" alt="New Image 4">
+    </div>
+    <div class="image-container">
+        <img src="motu (5).jpeg" alt="Motu Image 5">
+    </div>
+
+    <div class="image-container">
+        <img src="motu_(4).jpg" alt="Motu Image 4">
+    </div>
+    <div class="image-container">
+        <img src="motu (3).jpeg" alt="Motu Image 3">
+    </div>
+    <div class="image-container">
+        <img src="food.jpg" alt="New Image 4">
+    </div>
+    <div class="image-container">
+        <img src="motu (4).jpeg" alt="Motu Image 4">
+    </div>
+
+
+
+</div>
+
+</body>
+</html>
